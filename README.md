@@ -12,9 +12,11 @@ paste the following in the /boot/cmdline.txt
 logo.nologo consoleblank=1 loglevel=0 quietplymouth.enable=0 vt.global_cursor_default=0 plymouth.ignore-serial-consoles splash fastboot noatime nodiratime noram
 
 in one single line and save
+also change tty1 to tty3 in console in the same file.
 
 paste disable_splash=1 in /boot/config.txt
 
 run sudo systemd enable splash
 
 make sure omxplayer is installed
+
