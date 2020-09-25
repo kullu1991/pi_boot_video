@@ -1,0 +1,11 @@
+[Unit]
+Description=yourScript
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/bin/true
+ExecStop=omxplayer /home/pi/Videos/video2.mp4
+
+[Install]
+WantedBy=multi-user.target
