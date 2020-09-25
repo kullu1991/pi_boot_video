@@ -5,7 +5,7 @@ This Set of instructions will help you to put boot video on a standard raspbian 
 paste the Atoms.mp4 in the Desktop folder
 paste the s.sh in Downloads Folder
 copy the second last line of rc.local in your pi's /etc/rc.local just above exit 0
-copy the splash.service in /etc/systemd/system folder
+copy the splash.service & dsplash.service in /etc/systemd/system folder
 
 paste the following in the /boot/cmdline.txt
 
